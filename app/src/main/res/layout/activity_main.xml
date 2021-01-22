@@ -10,82 +10,18 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
-        android:id="@+id/one_textview"
-        style="@style/StylePhoneDefault"
-        android:text="ABCD abcd 12369"
-        android:textSize="24sp"
-        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="COMPAT"
+        android:layout_marginBottom="24dp"
+        android:onClick="openCompat" />
 
-    <TextView
-        android:id="@+id/two_textview"
-        style="@style/StylePhoneBold"
-        android:text="ABCD abcd 12369"
-        android:textSize="24sp"
-        android:layout_marginBottom="10dp" />
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:text="NORMAL"
+        android:layout_marginBottom="24dp"
+        android:onClick="openNormal" />
 
-    <TextView
-        android:id="@+id/three_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ABCD abcd 12369"
-        android:textSize="24sp"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:id="@+id/four_textview"
-        style="@style/StyleAmsterdam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ABCD abcd 12369"
-        android:textSize="24sp"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:id="@+id/five_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/almendra_regular"
-        tools:text="ABCD abcd 12369"
-        android:textSize="24sp"
-        android:layout_marginBottom="10dp" />
-
-    <TextView
-        android:id="@+id/six_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/almendra_regular"
-        android:layout_marginBottom="10dp"
-        android:text="ABCD abcd 12369 (Almendra italic)"
-        android:textStyle="italic"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/seven_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/almendra_italic"
-        android:layout_marginBottom="10dp"
-        android:text="ABCD abcd 12369 (Almendra-italic)"
-        android:textSize="24sp" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/eight_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:fontFamily="@font/almendra_regular"
-        android:text="ABCD abcd 12369 (Almendra italic)"
-        android:textSize="24sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/nine_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        style="@style/StyleAlmendra"
-        android:text="ABCD abcd 12369 (Style Almendra italic)"
-        android:textSize="24sp"
-        android:textStyle="bold" />
 </LinearLayout>

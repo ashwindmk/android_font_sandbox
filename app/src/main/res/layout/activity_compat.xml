@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CompatActivity">
+
+    <TextView
+        android:id="@+id/one_textview"
+        style="@style/StyleDefault"
+        android:text="Normal Text: ABCD abcd 12369"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/two_textview"
+        style="@style/StyleApercu"
+        android:text="Apercu Text: ABCD abcd 12369"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/three_textview"
+        style="@style/StyleAlmendra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almendra Text: ABCD abcd 12369"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/four_textview"
+        style="@style/StyleAlmendra"
+        android:text="Almendra Bold: ABCD abcd 12369"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/five_textview"
+        style="@style/StyleDefault"
+        android:fontFamily="@font/almendra_bold"
+        android:text="Almendra Bold: ABCD abcd 12369"
+        android:layout_marginBottom="10dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/six_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/almendra_regular"
+        android:text="Almendra Italic: ABCD abcd 12369"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

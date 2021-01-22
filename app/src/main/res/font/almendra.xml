@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <font-family
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <font
         android:fontStyle="normal"
         android:fontWeight="400"
-        android:font="@font/almendra_regular" />
+        android:font="@font/almendra_regular"
+        app:font="@font/almendra_regular" />
 
     <font
         android:fontStyle="italic"
         android:fontWeight="400"
-        android:font="@font/almendra_italic" />
+        android:font="@font/almendra_italic"
+        app:font="@font/almendra_italic" />
 
     <font
         android:fontStyle="normal"
         android:fontWeight="700"
-        android:font="@font/almendra_bold" />
+        android:font="@font/almendra_bold"
+        app:font="@font/almendra_bold" />
 </font-family>

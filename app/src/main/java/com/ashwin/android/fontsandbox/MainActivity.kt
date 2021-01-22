@@ -1,13 +1,21 @@
 package com.ashwin.android.fontsandbox
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        five_textview.text = "ABCD abcd 12369"
+    }
+
+    fun openNormal(view: View) {
+        startActivity(Intent(MainActivity@this, NormalActivity::class.java))
+    }
+
+    fun openCompat(view: View) {
+        startActivity(Intent(MainActivity@this, CompatActivity::class.java))
     }
 }
